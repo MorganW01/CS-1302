@@ -35,7 +35,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountChecker">
+  <component name="RunManager" selected="Application.DesignPrinter">
     <configuration name="CollegeAdmit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollegeAdmit" />
       <module name="HW_1" />
@@ -50,8 +50,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DesignPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPrinter" />
+      <module name="HW_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignPrinter" />
         <item itemvalue="Application.CountChecker" />
         <item itemvalue="Application.CollegeAdmit" />
       </list>
