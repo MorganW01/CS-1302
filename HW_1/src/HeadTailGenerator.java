@@ -24,11 +24,11 @@ public class HeadTailGenerator {
             score = (heads/inputArray.length)*100;
 
             if (score >= 50.0){
-                System.out.println("Game "+ i+": "+heads+" heads ("+score+"%); You win!");
+                System.out.println("Game "+ i+": "+(int)heads+" heads ("+score+"%); You win!");
             }
 
             else {
-                System.out.println("Game "+ i+": "+heads+" heads ("+score+"%); You lose!");
+                System.out.println("Game "+ i+": "+(int)heads+" heads ("+score+"%); You lose!");
 
             }
             heads=0;
