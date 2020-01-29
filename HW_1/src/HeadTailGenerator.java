@@ -1,44 +1,46 @@
 import java.util.Scanner;
 public class HeadTailGenerator {
 
-    public static void main (String []args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("How many games?");
+    public static void main (String []args){
+        Scanner scanner = new Scanner (System.in);
+        System.out.print("Number of games: ");
         int games = scanner.nextInt();
-        int count = 0;
-        int heads =0;
+        System.out.println("Games: "+games);
+        scanner.nextLine();
 
-        while (count<games){
-            System.out.print("Enter your flips for game "+ count+": ");
+        double heads=0;
+        double score =0.0;
+
+        for (int i=1; i <= games; i++){
+            System.out.print("Enter your coin flips for Game "+ i+": ");
             String input = scanner.nextLine();
             String [] inputArray = input.split("\\s+");
-            //System.out.println(inputArray.length);
-            for (int i = 0; i <inputArray.length-1; i++){
 
-                if (inputArray[i].equals("H")){
+            for (int j = 0; j <=inputArray.length-1; j++){
+                if (inputArray[j].equals("H")){
                     heads++;
                 }
-
-            }//exit for loop
-
-            double score = (heads/(inputArray.length)*100);
+            }
+            score = (heads/inputArray.length)*100;
 
             if (score >= 50.0){
-
-                System.out.println("Game "+ count + ": "+ heads + " heads ("+ score+ "%); You win!");
+                System.out.println("Game "+ i+": "+heads+" heads ("+score+"%); You win!");
             }
 
             else {
-
-                System.out.println("Game "+ count + ": "+ heads + " heads ("+ score+ "%); You lose!");
-
+                System.out.println("Game "+ i+": "+heads+" heads ("+score+"%); You lose!");
 
             }
+            heads=0;
 
-            count++;
+
         }
+
+
     }
-}
+
+
+}//done
 
 
 

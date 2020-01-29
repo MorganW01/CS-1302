@@ -35,7 +35,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DesignPrinter">
+  <component name="RunManager" selected="Application.HeadTailGenerator">
     <configuration name="CollegeAdmit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollegeAdmit" />
       <module name="HW_1" />
@@ -73,8 +73,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DesignPrinter" />
         <item itemvalue="Application.HeadTailGenerator" />
+        <item itemvalue="Application.DesignPrinter" />
         <item itemvalue="Application.WhilePractice" />
         <item itemvalue="Application.CollegeAdmit" />
         <item itemvalue="Application.MyString" />
