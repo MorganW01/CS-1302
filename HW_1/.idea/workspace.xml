@@ -43,15 +43,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountChecker" />
+    <configuration name="DesignPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPrinter" />
       <module name="HW_1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DesignPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPrinter" />
+    <configuration name="HeadTailGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeadTailGenerator" />
+      <module name="HW_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyString" />
+      <module name="HW_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhilePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WhilePractice" />
       <module name="HW_1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,8 +74,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DesignPrinter" />
-        <item itemvalue="Application.CountChecker" />
+        <item itemvalue="Application.HeadTailGenerator" />
+        <item itemvalue="Application.WhilePractice" />
         <item itemvalue="Application.CollegeAdmit" />
+        <item itemvalue="Application.MyString" />
       </list>
     </recent_temporary>
   </component>
