@@ -35,9 +35,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeadTailGenerator">
+  <component name="RunManager" selected="Application.MyString">
     <configuration name="CollegeAdmit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollegeAdmit" />
+      <module name="HW_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountChecker" />
       <module name="HW_1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,20 +71,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhilePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WhilePractice" />
-      <module name="HW_1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HeadTailGenerator" />
-        <item itemvalue="Application.DesignPrinter" />
-        <item itemvalue="Application.WhilePractice" />
-        <item itemvalue="Application.CollegeAdmit" />
         <item itemvalue="Application.MyString" />
+        <item itemvalue="Application.CountChecker" />
+        <item itemvalue="Application.DesignPrinter" />
+        <item itemvalue="Application.CollegeAdmit" />
+        <item itemvalue="Application.HeadTailGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -99,7 +99,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

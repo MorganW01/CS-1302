@@ -17,7 +17,7 @@ public class HeadTailGenerator {
             String [] inputArray = input.split("\\s+");
 
             for (int j = 0; j <=inputArray.length-1; j++){
-                if (inputArray[j].equals("H")){
+                if (inputArray[j].equals("H") || inputArray[j].equals("h")){
                     heads++;
                 }
             }

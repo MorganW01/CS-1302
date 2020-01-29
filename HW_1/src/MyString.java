@@ -1,7 +1,7 @@
 public class MyString {
     public static void main (String []args){
 
-        System.out.println(wordCount("hello"));
+        System.out.println(wordCount(" this string has wide spaces "));
 
     }
 
