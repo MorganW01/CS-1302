@@ -3,7 +3,7 @@ public class HeadTailGenerator {
 
     public static void main (String []args){
         Scanner scanner = new Scanner (System.in);
-        System.out.print("Number of games: ");
+        System.out.print("How many games do you want to play?: ");
         int games = scanner.nextInt();
         System.out.println("Games: "+games);
         scanner.nextLine();
