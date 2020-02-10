@@ -1,0 +1,8 @@
+public class Rectangle {
+    // DO NOT FORGET THE .CLASS FILES BC APPARENTLY THAT MATTERS FOR SOME REASON!
+
+
+
+    
+
+}
