@@ -42,8 +42,8 @@ public class Rectangle {
     //returns a string such as Coordinate is (5,12) and dimension is 4x8 where 4 is width and 8 is height.
 
     public String toString(){
-        return "Coordinate is ("+x+","+y+") and dimension is "+ width+"x"+height+"\n" +
-                "Area is "+ area();
+        return "Coordinate is ("+x+","+y+") and dimension is "+ width+"x"+height;
+
 
     }
 
