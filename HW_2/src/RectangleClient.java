@@ -10,15 +10,6 @@ public class RectangleClient {
 
 
 
-
-
-
-
-
-
-
-
-
     }
 
 
