@@ -1,22 +1,36 @@
-import java.util.Arrays;
-public class GroceryList {
-    //represents a list of items to buy
+import java.util.ArrayList;
+import java.util.List;
 
-    private GroceryItemOrder [] groceryItemList;
+public class GroceryList {
+
+    //initialize as a list, then make it an array list.
+    List<GroceryItemOrder> list = null;
     int n;
 
+    //represents a list of items to buy
     public GroceryList(){
-
-        groceryItemList = new GroceryItemOrder[10];
+        list = new ArrayList<>();
         this.n=0;
+
     }
 
     public void add(GroceryItemOrder item){
+        list.add(item);
+    }
 
-        //Arrays.add(item);
+    public double getTotalCost(){
+        int total=0;
+        for (int i =0; i<list.size(); i++){
+            total+= list.get(i).getCost();
+        }
 
+        return total;
+    }
 
+    //bug is here
+    public String toString() {
 
+        return "Grocery List: ";
     }
 
 }
