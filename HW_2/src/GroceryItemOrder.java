@@ -12,6 +12,7 @@ public class GroceryItemOrder {
     }
 
     public double getCost (){
+
         return this.quantity * this.pricePerUnit;
     }
 

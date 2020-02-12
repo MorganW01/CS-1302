@@ -5,16 +5,15 @@ public class GroceryList {
 
     //initialize as a list, then make it an array list.
     List<GroceryItemOrder> list = null;
-    int n;
 
     //represents a list of items to buy
     public GroceryList(){
         list = new ArrayList<>();
-        this.n=0;
 
     }
 
     public void add(GroceryItemOrder item){
+
         list.add(item);
     }
 
@@ -27,10 +26,5 @@ public class GroceryList {
         return total;
     }
 
-    //bug is here
-    public String toString() {
-
-        return "Grocery List: ";
-    }
 
 }
