@@ -1,22 +1,22 @@
 public class GroceryClient {
     public static void main (String []args){
-        GroceryItemOrder item1 = new GroceryItemOrder("apples",1,1);
-        GroceryItemOrder item2 = new GroceryItemOrder("fish",2,2);
-        GroceryItemOrder item3 = new GroceryItemOrder("cookies",3,3);
-        GroceryItemOrder item4 = new GroceryItemOrder("bread",4,4);
-        GroceryItemOrder item5 = new GroceryItemOrder("chicken",5,5);
-        GroceryItemOrder item6 = new GroceryItemOrder("bananas",6,6);
-        GroceryItemOrder item7 = new GroceryItemOrder("carrots",7,7);
+        GroceryItemOrder apples = new GroceryItemOrder("apples",1,1);
+        GroceryItemOrder fish = new GroceryItemOrder("fish",2,2);
+        GroceryItemOrder cookies = new GroceryItemOrder("cookies",3,3);
+        GroceryItemOrder bread = new GroceryItemOrder("bread",4,4);
+        GroceryItemOrder chicken = new GroceryItemOrder("chicken",5,5);
+        GroceryItemOrder bananas = new GroceryItemOrder("bananas",6,6);
+        GroceryItemOrder carrots = new GroceryItemOrder("carrots",7,7);
 
         GroceryList groceryList = new GroceryList();
 
-        groceryList.add(item1);
-        groceryList.add(item2);
-        groceryList.add(item3);
-        groceryList.add(item4);
-        groceryList.add(item5);
-        groceryList.add(item6);
-        groceryList.add(item7);
+        groceryList.add(apples);
+        groceryList.add(fish);
+        groceryList.add(cookies);
+        groceryList.add(bread);
+        groceryList.add(chicken);
+        groceryList.add(bananas);
+        groceryList.add(carrots);
 
 
         System.out.println("The total cost of your groceries is: $"+ groceryList.getTotalCost());
