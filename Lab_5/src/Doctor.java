@@ -1,18 +1,12 @@
-import javax.print.Doc;
-
 public class Doctor extends Human  {
     private int years;
     private String speciality;
-
 
     public Doctor (String speciality, int years, int height, float weight,int age ){
         super(weight,age,height);
         this.speciality=speciality;
         this.years=years;
-
-
     }
-
     public int getYears() {
         return years;
     }

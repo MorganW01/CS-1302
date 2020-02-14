@@ -1,17 +1,13 @@
 public class Student extends Human{
-
-    private String name;
     private String major;
     private double gpa;
     private int creditHours;
-
 
     public Student (String major, double gpa, int creditHours, int height, float weight, int age){
         super (weight,age, height);
         this.gpa = gpa;
         this.creditHours=creditHours;
         this.major=major;
-
     }
 
     public String getMajor() {
@@ -35,7 +31,7 @@ public class Student extends Human{
             year = "Sophomore";
         }
 
-        else if (creditHours > 64 && creditHours<96){
+        else if (creditHours > 64 && creditHours < 96){
 
             year = "Junior";
         }
