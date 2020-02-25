@@ -1,6 +1,4 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-
 public class Lab_6 {
 
     public static void main (String []args){
@@ -13,8 +11,9 @@ public class Lab_6 {
         a1.add("years");
         a1.add("ago");
         a1.add("our");
+        System.out.println("QUESTION 1 OUTPUT:");
         System.out.println(clump(a1));
-
+        System.out.println();
 
         //test for question 2
         ArrayList <Integer> list =  new ArrayList<>();
@@ -33,7 +32,10 @@ public class Lab_6 {
         list.add(6);
         list.add(7);
 
+        System.out.println("QUESTION 2 OUTPUT:");
         System.out.println(filterRange(list,5,7));
+        System.out.println();
+
 
         //test for question 3
         ArrayList <Integer> a3= new ArrayList<>();
@@ -49,10 +51,12 @@ public class Lab_6 {
         a4.add(7);
         a4.add(8);
 
+        System.out.println("QUESTION 3 OUTPUT:");
         System.out.println(interleave(a3,a4));
+        System.out.println();
+
 
         //test for question 4
-
         ArrayList <String> q4 = new ArrayList<>();
         q4.add("be");
         q4.add("be");
@@ -65,13 +69,8 @@ public class Lab_6 {
         q4.add("to");
         q4.add("to");
 
+        System.out.println("QUESTION 4 OUTPUT:");
         removeDuplicates(q4);
-
-
-        // ["be", "be", "is", "not", "or", "question", "that", "the", "to", "to"]
-
-
-
 
     }
 
@@ -97,7 +96,7 @@ public class Lab_6 {
     }
 
     //question 2
-    public static ArrayList filterRange (ArrayList<Integer> a1, int min, int max){ //bug that doesn't remove maximum
+    public static ArrayList filterRange (ArrayList<Integer> a1, int min, int max){ 
         for (int i = 0; i < a1.size(); i++){
 
             if ((a1.get(i)>=min &&a1.get(i)<= max)){
@@ -137,47 +136,23 @@ public class Lab_6 {
     }
 
     //question 4
-
-    /*Write a method called removeDuplicates that takes as a parameter a sorted ArrayList of strings and eliminates any duplicates from the list.
-    For example, if the list stores the values ["be", "be", "is", "not", "or", "question", "that", "the", "to", "to"]
-    before the method is called, it should store the values ["be", "is", "not", "or", "question", "that", "the", "to"]
-    after the method finishes executing. Because the values will be sorted, all of the duplicates will be grouped together.
-    Assume that the ArrayList contains only String values, but keep in mind that it might be empty. */
-
-
     public static void removeDuplicates(ArrayList <String> a){
         int numberCounter = 0;
         String listElement;
         for (int i =0; i<a.size(); i++){
-
             listElement= a.get(i);
             for (int n =0; n<a.size();n++){
-
-
                 if (a.get(n)==listElement){
-
                     numberCounter+=1;
-
                 }
-
                 if (numberCounter>1){
                     a.remove(listElement);
                     numberCounter=0;
                 }
             }
             numberCounter=0;
-
         }
         System.out.println(a);
     }
-
-
-
-
-
-
-
-
-
 
 }
