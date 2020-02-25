@@ -36,10 +36,8 @@ public class Lab_6 {
         System.out.println(filterRange(list,5,7));
 
         //test for question 3
-
         ArrayList <Integer> a3= new ArrayList<>();
         ArrayList <Integer> a4= new ArrayList<>();
-
 
         a3.add(10);
         a3.add(20);
@@ -51,8 +49,26 @@ public class Lab_6 {
         a4.add(7);
         a4.add(8);
 
-
         System.out.println(interleave(a3,a4));
+
+        //test for question 4
+
+        ArrayList <String> q4 = new ArrayList<>();
+        q4.add("be");
+        q4.add("be");
+        q4.add("is");
+        q4.add("not");
+        q4.add("or");
+        q4.add("question");
+        q4.add("that");
+        q4.add("the");
+        q4.add("to");
+        q4.add("to");
+
+        removeDuplicates(q4);
+
+
+        // ["be", "be", "is", "not", "or", "question", "that", "the", "to", "to"]
 
 
 
@@ -94,32 +110,65 @@ public class Lab_6 {
 
     //question 3
 
-
     public static ArrayList interleave(ArrayList<Integer> a1, ArrayList <Integer> a2) {
-        //CONSIDER RENAMING THE VARIABLES
 
         //iterates through the values in a1 and adds the values of a2.
-        int a1Elements = 1;
+        int a1x = 1;
 
         //iterates through the values in a2 to add to a1.
-        int a2Iterator = 0;
+        int a2y = 0;
 
-        while(a2Iterator < a2.size()) { //goes through the elements of a2.
+        while(a2y < a2.size()) { //goes through the elements of a2.
 
-            if(a1Elements < a1.size()) { //goes through the elements of a1.
+            if(a1x < a1.size()) { //goes through the elements of a1.
 
-                a1.add(a1Elements, a2.get(a2Iterator));
-                a1Elements += 2;
+                a1.add(a1x, a2.get(a2y));
+                a1x += 2;
             }
             else {
-                a1.add(a2.get(a2Iterator));
-                a1Elements++;
+                a1.add(a2.get(a2y));
+                a1x++;
             }
 
-            a2Iterator++;
+            a2y++;
         }
 
         return a1;
+    }
+
+    //question 4
+
+    /*Write a method called removeDuplicates that takes as a parameter a sorted ArrayList of strings and eliminates any duplicates from the list.
+    For example, if the list stores the values ["be", "be", "is", "not", "or", "question", "that", "the", "to", "to"]
+    before the method is called, it should store the values ["be", "is", "not", "or", "question", "that", "the", "to"]
+    after the method finishes executing. Because the values will be sorted, all of the duplicates will be grouped together.
+    Assume that the ArrayList contains only String values, but keep in mind that it might be empty. */
+
+
+    public static void removeDuplicates(ArrayList <String> a){
+        int numberCounter = 0;
+        String listElement;
+        for (int i =0; i<a.size(); i++){
+
+            listElement= a.get(i);
+            for (int n =0; n<a.size();n++){
+
+
+                if (a.get(n)==listElement){
+
+                    numberCounter+=1;
+
+                }
+
+                if (numberCounter>1){
+                    a.remove(listElement);
+                    numberCounter=0;
+                }
+            }
+            numberCounter=0;
+
+        }
+        System.out.println(a);
     }
 
 
