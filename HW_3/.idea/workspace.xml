@@ -35,7 +35,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MapIntersectClient">
+    <configuration name="MapIntersectClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapIntersectClient" />
+      <module name="HW_3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="HW_3" />
@@ -45,6 +52,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapIntersectClient" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
