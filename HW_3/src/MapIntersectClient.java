@@ -1,5 +1,6 @@
 import java.util.*;
 
+//Question 1
 public class MapIntersectClient {
     public static void main (String [] args){
         Map <String,Integer> map1= new HashMap<>();
@@ -30,7 +31,6 @@ public class MapIntersectClient {
 
     }
 
-    //Question 1
     public static Map <String, Integer> mapIntersect (Map <String,Integer> map1, Map <String,Integer> map2){
         // new empty Map that will contain the final answer map.
         Map <String, Integer> intersect= new HashMap<>();
@@ -61,10 +61,6 @@ public class MapIntersectClient {
 
 
     }
-
-    //question 2
-
-
 
 }
 
