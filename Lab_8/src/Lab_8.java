@@ -5,6 +5,7 @@ public class Lab_8 {
         //System.out.println();
         System.out.println("Question 4 output: ");
         writeNums(5);
+        System.out.println();
         writeNums(12);
         System.out.println();
         System.out.print("(n is less than 1): ");
