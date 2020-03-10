@@ -35,7 +35,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RecursiveMultiplication">
+  <component name="RunManager" selected="Application.TicketTester">
     <configuration name="MapIntersectClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MapIntersectClient" />
       <module name="HW_3" />
@@ -57,8 +57,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicketTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TicketTester" />
+      <module name="HW_3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicketTester" />
         <item itemvalue="Application.RecursiveMultiplication" />
         <item itemvalue="Application.MapIntersectClient" />
         <item itemvalue="Application.Test" />

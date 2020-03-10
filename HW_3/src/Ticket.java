@@ -1,20 +1,14 @@
 public class Ticket {
     private int ticketNumber;
-    private double ticketPrice;
-
-    public Ticket (){
+    protected double ticketPrice;
 
 
-    }
 
-    public Ticket (int ticketNumber, double ticketPrice) {
-
+    public Ticket (int ticketNumber) {
         this.ticketNumber=ticketNumber;
-        this.ticketPrice =ticketPrice;
-
     }
 
-    //might have done this wrong...
+    //need this?
     public int constructTicketNumber(int additionalTix){
         return ticketNumber+additionalTix;
     }
