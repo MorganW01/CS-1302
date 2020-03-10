@@ -1,9 +1,8 @@
 public class TicketTester {
 
     public static void main (String []args){
-        //print the price for each object and the object itself.
 
-
+        //ticket number 15
         WalkupTicket walkupTicket =new WalkupTicket(15);
 
         // ticket number 16, purchased 11 days in advance
@@ -15,14 +14,19 @@ public class TicketTester {
         //print price and ticket number for walkupTicket
         System.out.println("Price: "+walkupTicket.ticketPrice);
         System.out.println(walkupTicket);
+        System.out.println();
 
         //print price and ticket number for advanceTicket
         System.out.println("Price: "+advanceTicket.ticketPrice);
         System.out.println(advanceTicket);
+        System.out.println();
 
         //print price and ticket number for studentAdvanceTicket
         System.out.println("Price: "+studentAdvanceTicket.ticketPrice);
         System.out.println(studentAdvanceTicket);
+
+
+
 
 
     }
