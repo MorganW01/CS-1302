@@ -1,27 +1,23 @@
 public class Searches {
 
     //sequential search
-
     public static int sequentialSearch (int [] array1, int arrayElement){
-
         int index;
+
         for (index=0;index<= array1.length; index++){
-
             if (array1[index] ==arrayElement){
-
                 return index+1;
             }
         }
         return -1;
     }
-    //binary search
 
+    //binary search
     public static int binarySearch(int[] array2, int array2Element){
         int min=0;
         int max = array2.length-1;
 
         while (min<=max){
-
             int mid = (min+max)/2;
 
             if (array2[mid] == array2Element){
@@ -36,21 +32,14 @@ public class Searches {
 
                 max=mid-1;
             }
-
-
         }
-
         return -1;
-
     }
 
     // recursive binary search
-
     public static int recursiveBinary (int [] array3, int array3Element, int min, int max){
         if (min<=max){
-
             int mid = (min+max)/2;
-
             if (array3[mid]==array3Element){
 
                 return mid+1;
@@ -60,7 +49,6 @@ public class Searches {
                 return recursiveBinary(array3,array3Element,min,mid-1);
 
             }
-
             else {
 
                 return recursiveBinary(array3,array3Element,mid+1,max);
@@ -68,10 +56,7 @@ public class Searches {
         }
         return -1;
     }
-
     public static void main (String []args){
-
-
         int [] testArray = {25,10,30,40,55,90};
 
         System.out.println("30 is at position: "+sequentialSearch(testArray,30));
@@ -79,10 +64,4 @@ public class Searches {
         System.out.println("90 is at position: "+recursiveBinary(testArray,90,0,6));
 
     }
-
-
-
-
-
-
 }
