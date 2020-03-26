@@ -1,6 +1,24 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+
 public class HW_4 {
 
     public static void main (String [] args){
+        //question 5
+        System.out.println("OUTPUT FOR QUESTION 5: ");
+
+        ArrayList<String> list = new ArrayList<>();
+        list.add("123456, Seattle, WA");
+        list.add("9847, New York, NY");
+        list.add("276453, Helena, MT");
+        StringComparator myComparator = new StringComparator();
+        System.out.println("before sort: "+list);
+        Collections.sort(list,myComparator );
+        System.out.println("after sort: "+list);
+
+        System.out.println();
+
         System.out.println("OUTPUT FOR QUESTION 6: ");
         System.out.println(repeat("ok",1));
         System.out.println(repeat("hello",3));
@@ -22,14 +40,9 @@ public class HW_4 {
         for (int i=1; i<= array.length-1; i++){
             System.out.print(","+ array[i]);
         }
+
+
     }
-
-    // question 5
-
-
-
-
-
 
     // question 6
     public static String repeat (String s, int n){
@@ -86,20 +99,5 @@ public class HW_4 {
         return array;
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
