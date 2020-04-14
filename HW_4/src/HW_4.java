@@ -33,7 +33,10 @@ public class HW_4 {
         System.out.println();
         System.out.println();
 
-        System.out.println("OUTPUT FOR QUESTION 8: ");
+        System.out.println("OUTPUT FOR QUESTION 2: ");
+        System.out.println("Test array = {10,40,60,20,30,50,80,70}");
+        System.out.println();
+        System.out.println("Sorted array: ");
         int[] array = {10,40,60,20,30,50,80,70};
         selectionSort(array);
         System.out.print(array[0]);
