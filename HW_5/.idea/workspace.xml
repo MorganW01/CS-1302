@@ -35,6 +35,28 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.IntegerArith_Main">
+    <configuration name="Fahrenheit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fahrenheit" />
+      <module name="HW_5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegerArith_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntegerArith_Main" />
+      <module name="HW_5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IntegerArith_Main" />
+        <item itemvalue="Application.Fahrenheit" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
