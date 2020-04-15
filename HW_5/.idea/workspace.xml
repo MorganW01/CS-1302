@@ -35,7 +35,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntegerArith_Main">
+  <component name="RunManager" selected="Application.TextStats_Main">
     <configuration name="Fahrenheit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fahrenheit" />
       <module name="HW_5" />
@@ -50,8 +50,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextStats_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextStats_Main" />
+      <module name="HW_5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TextStats_Main" />
         <item itemvalue="Application.IntegerArith_Main" />
         <item itemvalue="Application.Fahrenheit" />
       </list>
