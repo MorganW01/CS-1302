@@ -35,7 +35,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IncrementDecrement">
+  <component name="RunManager" selected="Application.PushCounter">
     <configuration name="IncrementDecrement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IncrementDecrement" />
       <module name="Lab_11" />
@@ -59,8 +59,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IncrementDecrement" />
         <item itemvalue="Application.PushCounter" />
+        <item itemvalue="Application.IncrementDecrement" />
         <item itemvalue="Application.LeftRight" />
       </list>
     </recent_temporary>

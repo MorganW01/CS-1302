@@ -8,8 +8,8 @@ public class IncrementDecrementPanel extends JPanel {
 
     public IncrementDecrementPanel() {
         int number = 50;
-        increment = new JButton("Inc");
-        decrement = new JButton("Dec");
+        increment = new JButton("Inc."); //reason for shorthand: the word "increment" was too big and caused the second button to be non-visible
+        decrement = new JButton("Dec.");
         ButtonListener listener = new ButtonListener();
         increment.addActionListener(listener);
         decrement.addActionListener(listener);
@@ -37,5 +37,4 @@ public class IncrementDecrementPanel extends JPanel {
                 label.setText("value = " + (number));}
         }
     }
-
 }
