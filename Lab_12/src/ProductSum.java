@@ -10,7 +10,7 @@ public class ProductSum {
         String number1_string,number2_string, product, sum;
         int number1,number2, goAgain;
         do {
-            number1_string= JOptionPane.showInputDialog("Enter an integer: ");
+            number1_string = JOptionPane.showInputDialog("Enter an integer: ");
             number1 = Integer.parseInt(number1_string);
             number2_string = JOptionPane.showInputDialog("Enter another integer: ");
             number2 = Integer.parseInt(number2_string);

@@ -35,7 +35,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProductSum">
+  <component name="RunManager" selected="Application.StyleOptions">
+    <configuration name="BackgroundMouse" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BackgroundMouse" />
+      <module name="Lab_12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EvenOdd" />
       <module name="Lab_12" />
@@ -50,8 +57,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StyleOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StyleOptions" />
+      <module name="Lab_12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StyleOptions" />
+        <item itemvalue="Applet.BackgroundMouse" />
         <item itemvalue="Application.ProductSum" />
         <item itemvalue="Application.EvenOdd" />
       </list>
