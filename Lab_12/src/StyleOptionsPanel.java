@@ -5,7 +5,6 @@ import java.util.Hashtable;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-
 public class StyleOptionsPanel extends JPanel implements ChangeListener {
     private JSlider slider = new JSlider(JSlider.HORIZONTAL);
     private JLabel saying;
@@ -25,21 +24,21 @@ public class StyleOptionsPanel extends JPanel implements ChangeListener {
         add(bold);
         add(italic);
         add(slider);
-        slider.setMaximum(20);
+        slider.setMaximum(10);
         slider.setMinimum(0);
         slider.setValue(0);
         Hashtable<Integer, JLabel> sliderLabels = new Hashtable<Integer, JLabel>();
         sliderLabels.put(0, new JLabel("0"));
+        sliderLabels.put(1, new JLabel("1"));
         sliderLabels.put(2, new JLabel("2"));
+        sliderLabels.put(3, new JLabel("3"));
         sliderLabels.put(4, new JLabel("4"));
+        sliderLabels.put(5, new JLabel("5"));
         sliderLabels.put(6, new JLabel("6"));
+        sliderLabels.put(7, new JLabel("7"));
         sliderLabels.put(8, new JLabel("8"));
+        sliderLabels.put(9, new JLabel("9"));
         sliderLabels.put(10, new JLabel("10"));
-        sliderLabels.put(12, new JLabel("12"));
-        sliderLabels.put(14, new JLabel("14"));
-        sliderLabels.put(16, new JLabel("16"));
-        sliderLabels.put(18, new JLabel("18"));
-        sliderLabels.put(20, new JLabel("20"));
         slider.setMajorTickSpacing(1);
         slider.setLabelTable(sliderLabels);
         slider.setPaintTicks(true);

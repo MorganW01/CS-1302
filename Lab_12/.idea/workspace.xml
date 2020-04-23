@@ -43,6 +43,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Background" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Background" />
+      <module name="Lab_12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EvenOdd" />
       <module name="Lab_12" />
@@ -67,8 +74,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StyleOptions" />
-        <item itemvalue="Applet.BackgroundMouse" />
+        <item itemvalue="Application.Background" />
         <item itemvalue="Application.ProductSum" />
+        <item itemvalue="Applet.BackgroundMouse" />
         <item itemvalue="Application.EvenOdd" />
       </list>
     </recent_temporary>
