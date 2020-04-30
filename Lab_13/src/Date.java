@@ -7,16 +7,14 @@ public class Date {
         this.day = d;
     }
 
-
     //accessors
     public int getDay() {
         return day;
     }
-
     public int getMonth() {
         return month;
-
     }
+
     //mutators
     public void setDay(int d){
         this.day= d;
@@ -25,6 +23,7 @@ public class Date {
     public void setMonth(int m){
         this.month = m;
     }
+
     // returns the number of days in the given month
     public int numDays(int m) {
         if (m == 2) {
@@ -49,21 +48,13 @@ public class Date {
             if (day > numDays(month)){
               day =1;
               month ++;
-
             }
-
             //checks if the month is greater than 12; begins a new year from January.
             if (month > 12){
                 month = 1;
                 day=1;
-
             }
-
         }
-
         System.out.println(month + "/" + day);
-
     }
-
-
 }
